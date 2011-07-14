@@ -1,0 +1,24 @@
+Electricity Monitor project that showcases different technologies:
+- WCF REST
+- Silverlight (calling WCF REST)
+- .Net Micro Framework
+
+Projects are:
+[ElectricityMonitor]
+- Supposed to be the main site but not yet working
+- Though it contains the WCF REST service that the sensor sends data to
+- Contains the service that saves the sensor data and also provides sensor data
+- Has the MDF file too
+[ElectricitySerialFeed]
+- Console application that accepts the Serial input from an XBee, sent by the sensor
+- It sends the data to the WCF REST service
+[GrapherLab]
+- Silverlight application that calls the WCF REST service and displays the sensor data in line graphstyle
+[GrapherLab.Web]
+- Contains the GrapherLab silverlight application (test site)
+[MonitorNode]
+- .Net Micro Framework implementation of Trystan Lea's arduino energy monitor http://http://openenergymonitor.org/emon/
+
+Enjoy :)
+
+Email me for questions: wendell.hack@gmail.com

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SensorDatabase">
+  <DataContextMoniker Name="/SensorDatabaseDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9bc0972d-e63f-471d-8b16-40084dee142a" absoluteBounds="3.125, 0.75, 2, 1.5891951497395831">
+      <DataClassMoniker Name="/SensorDatabaseDataContext/SensorFeed" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b7de3a42-1a26-41d0-b6e5-7b895a94f8c5" absoluteBounds="3.14, 1.21, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
